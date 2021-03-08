@@ -1,4 +1,4 @@
-body{
+body {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,93 +9,99 @@ body{
   font-size: 14px;
 }
 
-.test{
+.test {
   border: 1px solid red;
 }
 
-.test1{
+.test1 {
   border: 1px solid green;
 }
 
-.main{
+.main {
   display: flex;
   width: 800px;
 }
 
-.section{
+.section {
   display: flex;
   flex-direction: column;
+  padding: 0 30px;
 }
 
-h2{
+h2 {
   font-size: 18px;
   font-weight: lighter;
   text-transform: uppercase;
 }
 
-h3{
+h3 {
   font-size: 16px;
   font-weight: lighter;
   font-style: italic;
 }
 
-h4{
+h4 {
   margin-top: 0;
 
   font-size: 12px;
   font-weight: lighter;
 }
 
-.h4_content{
+.h4_content {
   font-size: 12px;
   font-weight: bold;
 }
 
-.h4_content_i{
+.h4_content_i {
   margin-top: 10px;
 
   font-style: italic;
 }
 
-h5{
+h5 {
   display: none;
 }
 
+.about-block {
+  width: 320px;
+  text-align: justify;
+}
+
 .pink_block_sm,
-.pink_block_l{
+.pink_block_l {
   padding: 10px 0 10px 25px;
   background-color: #e5d1d8;
 }
 
-.pink_block_sm{
+.pink_block_sm {
   width: 200px;
 }
 
-.contacts-article{
+.contacts-article {
   display: flex;
 }
 
-.contacts-buttons{
+.contacts-buttons {
   flex-direction: column;
 }
 
-.contacts-btn{
+.contacts-btn {
   position: relative;
   width: 35px;
 }
 
-.contacts-btn:hover{
+.contacts-btn:hover {
   opacity: 0.8;
 }
 
-.program-img{
+.program-img {
   width: 55px;
 }
 
-.technologies-block{
+.technologies-block {
   display: flex;
 }
 
-.technology-img{
+.technology-img {
   width: 90px;
 }
