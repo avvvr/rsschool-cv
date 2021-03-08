@@ -1,2 +1,169 @@
-h5{
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #E3E3E5;
+
+  font-family: Rubik;
+  font-size: 14px;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+ul li {
+  margin-bottom: 4px;
+}
+
+.test {
+  border: 1px solid red;
+}
+
+.test1 {
+  border: 1px solid green;
+}
+
+.main {
+  display: flex;
+  width: 800px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px 40px;
+}
+
+h2 {
+  margin: 40px 0 15px 0;
+  font-size: 18px;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.h2_education {
+  margin-top: 0;
+}
+
+h3 {
+  margin: 15px 0;
+  font-size: 16px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+h4 {
+  margin-top: 0;
+
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.h4_content {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.h4_content_i {
+  margin-top: 10px;
+
+  font-style: italic;
+}
+
+h5 {
   display: none;
+}
+
+.about-block {
+  width: 320px;
+  text-align: justify;
+}
+
+.pink_block_sm,
+.pink_block_l {
+  padding: 15px 0 15px 25px;
+  background-color: #e5d1d8;
+}
+
+.pink_block_sm {
+  width: 180px;
+}
+
+.pink_block_l_1 {
+  margin-bottom: 30px;
+}
+
+.contacts-article {
+  display: flex;
+  align-items: center;
+}
+
+.contacts-buttons {
+  flex-direction: column;
+  margin: 40px 0 0 15px;
+}
+
+.contacts-btn {
+  position: relative;
+  width: 35px;
+}
+
+.contacts-btn:hover {
+  opacity: 0.8;
+}
+
+.program-img {
+  width: 55px;
+  margin: 0 20px;
+}
+
+.program-img_bottom {
+  margin-top: 40px;
+}
+
+.program-img_top img:first-child,
+.program-img_bottom img:first-child {
+  margin-left: 0;
+}
+
+.technologies-block {
+  display: flex;
+  /*align-items: center;
+  justify-content: center;*/
+}
+
+
+.rate-dots ul {
+  list-style: none;
+  /*margin-left: -50px;*/
+}
+
+.technology-img {
+  width: 90px;
+}
+
+.linkedin-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  padding: 8px 20px;
+  margin-top: 15px;
+  border: 2px solid #c32448;
+}
+
+.linkedin {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 16px;
+  /*font-weight: lighter;*/
+}
