@@ -1,10 +1,12 @@
 body{
   display: flex;
+  align-items: center;
   justify-content: center;
 
   background-color: #E3E3E5;
 
   font-family: Rubik;
+  font-size: 14px;
 }
 
 .test{
@@ -25,27 +27,45 @@ body{
 }
 
 h2{
-  font-size: 16pt;
+  font-size: 18px;
   font-weight: lighter;
   text-transform: uppercase;
 }
 
 h3{
-  font-size: 16pt;
+  font-size: 16px;
   font-weight: lighter;
   font-style: italic;
 }
 
 h4{
-  font-size: 10pt;
+  margin-top: 0;
+
+  font-size: 12px;
   font-weight: lighter;
 }
 
 .h4_content{
-  font-size: 8pt;
+  font-size: 12px;
   font-weight: bold;
+}
+
+.h4_content_i{
+  margin-top: 10px;
+
+  font-style: italic;
 }
 
 h5{
   display: none;
+}
+
+.pink_block_sm,
+.pink_block_l{
+  padding: 10px 0 10px 25px;
+  background-color: #e5d1d8;
+}
+
+.pink_block_sm{
+  width: 200px;
 }
