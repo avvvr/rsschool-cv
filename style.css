@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -14,10 +14,11 @@ body {
   font-size: 14px;
 }
 
-ul{
+ul {
   margin-left: 20px;
 }
-ul li{
+
+ul li {
   margin-bottom: 4px;
 }
 
@@ -38,21 +39,22 @@ ul li{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 50px 30px;
+  padding: 50px 40px;
 }
 
 h2 {
-  margin: 35px 0 10px 0;
+  margin: 40px 0 15px 0;
   font-size: 18px;
   font-weight: lighter;
   text-transform: uppercase;
 }
 
-.h2_education{
+.h2_education {
   margin-top: 0;
 }
 
 h3 {
+  margin: 15px 0;
   font-size: 16px;
   font-weight: lighter;
   font-style: italic;
@@ -87,24 +89,26 @@ h5 {
 
 .pink_block_sm,
 .pink_block_l {
-  padding: 10px 0 10px 25px;
+  padding: 15px 0 15px 25px;
   background-color: #e5d1d8;
 }
 
 .pink_block_sm {
-  width: 200px;
+  width: 180px;
 }
 
-.pink_block_l_1{
+.pink_block_l_1 {
   margin-bottom: 30px;
 }
 
 .contacts-article {
   display: flex;
+  align-items: center;
 }
 
 .contacts-buttons {
   flex-direction: column;
+  margin: 40px 0 0 15px;
 }
 
 .contacts-btn {
@@ -118,15 +122,15 @@ h5 {
 
 .program-img {
   width: 55px;
-  margin: 0 10px;
+  margin: 0 20px;
 }
 
-.program-img_bottom{
-  margin-top: 25px;
+.program-img_bottom {
+  margin-top: 40px;
 }
 
 .program-img_top img:first-child,
-.program-img_bottom img:first-child{
+.program-img_bottom img:first-child {
   margin-left: 0;
 }
 
@@ -136,7 +140,8 @@ h5 {
   justify-content: center;*/
 }
 
-.rate-dots ul{
+
+.rate-dots ul {
   list-style: none;
   /*margin-left: -50px;*/
 }
@@ -145,17 +150,17 @@ h5 {
   width: 90px;
 }
 
-.linkedin-block{
+.linkedin-block {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100px;
   padding: 8px 20px;
-  margin-top: 5px;
+  margin-top: 15px;
   border: 2px solid #c32448;
 }
 
-.linkedin{
+.linkedin {
   text-decoration: none;
   color: black;
   text-transform: uppercase;
