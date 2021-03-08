@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body {
   display: flex;
   align-items: center;
@@ -7,6 +12,13 @@ body {
 
   font-family: Rubik;
   font-size: 14px;
+}
+
+ul{
+  margin-left: 20px;
+}
+ul li{
+  margin-bottom: 4px;
 }
 
 .test {
@@ -25,13 +37,19 @@ body {
 .section {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   padding: 50px 30px;
 }
 
 h2 {
+  margin: 35px 0 10px 0;
   font-size: 18px;
   font-weight: lighter;
   text-transform: uppercase;
+}
+
+.h2_education{
+  margin-top: 0;
 }
 
 h3 {
@@ -100,10 +118,27 @@ h5 {
 
 .program-img {
   width: 55px;
+  margin: 0 10px;
+}
+
+.program-img_bottom{
+  margin-top: 25px;
+}
+
+.program-img_top img:first-child,
+.program-img_bottom img:first-child{
+  margin-left: 0;
 }
 
 .technologies-block {
   display: flex;
+  /*align-items: center;
+  justify-content: center;*/
+}
+
+.rate-dots ul{
+  list-style: none;
+  /*margin-left: -50px;*/
 }
 
 .technology-img {
