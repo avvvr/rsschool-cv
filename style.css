@@ -1,2 +1,17 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+
+.test{
+  border: 1px solid red;
+}
+
+.test1{
+  border: 1px solid green;
+}
+
+
 h5{
   display: none;
+}
