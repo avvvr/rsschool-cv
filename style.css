@@ -105,3 +105,21 @@ h5 {
 .technology-img {
   width: 90px;
 }
+
+.linkedin-block{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  padding: 8px 20px;
+  margin-top: 5px;
+  border: 2px solid #c32448;
+}
+
+.linkedin{
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 16px;
+  /*font-weight: lighter;*/
+}
