@@ -19,6 +19,7 @@ body{
 
 .main{
   display: flex;
+  width: 800px;
 }
 
 .section{
@@ -68,4 +69,33 @@ h5{
 
 .pink_block_sm{
   width: 200px;
+}
+
+.contacts-article{
+  display: flex;
+}
+
+.contacts-buttons{
+  flex-direction: column;
+}
+
+.contacts-btn{
+  position: relative;
+  width: 35px;
+}
+
+.contacts-btn:hover{
+  opacity: 0.8;
+}
+
+.program-img{
+  width: 55px;
+}
+
+.technologies-block{
+  display: flex;
+}
+
+.technology-img{
+  width: 90px;
 }
