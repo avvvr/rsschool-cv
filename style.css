@@ -106,14 +106,23 @@ h5 {
   align-items: center;
 }
 
+.contact-el {
+  margin-bottom: 5px;
+}
+
 .contacts-buttons {
   flex-direction: column;
   margin: 40px 0 0 15px;
 }
 
-.contacts-btn {
+.contacts-btn,
+.contacts-btn_2 {
   position: relative;
   width: 35px;
+}
+
+.contacts-btn_2 {
+  margin: 12px 0;
 }
 
 .contacts-btn:hover {
