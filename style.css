@@ -5,6 +5,7 @@
 
 body {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 
@@ -30,9 +31,13 @@ ul li {
   border: 1px solid green;
 }
 
-.main {
+.main,
+.footer {
   display: flex;
   width: 800px;
+}
+.footer{
+  width: 660px;
 }
 
 .section {
@@ -175,4 +180,24 @@ h5 {
   text-transform: uppercase;
   font-size: 16px;
   /*font-weight: lighter;*/
+}
+
+.footer{
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  margin: 20px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer div{
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+  font-weight: lighter;
+}
+
+.rss-logo{
+  width: 100px;
+  margin-top: 15px;
 }
