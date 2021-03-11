@@ -104,7 +104,7 @@ h5 {
 }
 
 .pink_block_l_1 {
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 .contacts-article {
@@ -113,7 +113,7 @@ h5 {
 }
 
 .contact-el {
-  margin-bottom: 5px;
+  margin: 0 5px 5px 0;
 }
 
 .contacts-buttons {
@@ -137,11 +137,11 @@ h5 {
 
 .program-img {
   width: 55px;
-  margin: 0 20px;
+  margin: 0 15px;
 }
 
 .program-img_bottom {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .program-img_top img:first-child,
