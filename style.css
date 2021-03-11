@@ -48,7 +48,7 @@ ul li {
 }
 
 h2 {
-  margin: 40px 0 15px 0;
+  margin: 35px 0 12px 0;
   font-size: 18px;
   font-weight: lighter;
   text-transform: uppercase;
@@ -95,6 +95,7 @@ h5 {
 .pink_block_sm,
 .pink_block_l {
   padding: 15px 0 15px 25px;
+  margin-top: 15px;
   background-color: #e5d1d8;
 }
 
@@ -117,7 +118,7 @@ h5 {
 
 .contacts-buttons {
   flex-direction: column;
-  margin: 40px 0 0 15px;
+  margin: 45px 0 0 15px;
 }
 
 .contacts-btn,
@@ -127,7 +128,7 @@ h5 {
 }
 
 .contacts-btn_2 {
-  margin: 12px 0;
+  margin: 17px 0;
 }
 
 .contacts-btn:hover {
@@ -200,4 +201,16 @@ h5 {
 .rss-logo{
   width: 100px;
   margin-top: 15px;
+}
+
+.works-links{
+  color: black;
+}
+
+.works-links:hover{
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.work{
+  margin-top: 12spx;
 }
